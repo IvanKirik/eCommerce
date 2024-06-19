@@ -1,5 +1,5 @@
 import { AuthMiddlewareOptions } from '@commercetools/sdk-client-v2';
-import { configService } from '../../services';
+import { configService } from '../../services/config.service';
 import { tokenCacheUtil } from '../../utils';
 
 export const authMiddleware: AuthMiddlewareOptions = {
