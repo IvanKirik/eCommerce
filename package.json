@@ -80,6 +80,7 @@
     "vite-plugin-copy": "^0.1.6",
     "vite-plugin-env-compatible": "^2.0.1",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.6.0"
+    "vitest": "^1.6.0",
+    "vitest-preview": "^0.0.1"
   }
 }

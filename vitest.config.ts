@@ -8,6 +8,7 @@ export default defineConfig({
         environment: 'jsdom',
         setupFiles: './vitest-setup.ts',
         include: ['**/*.test.?(c|m)[jt]s?(x)'],
+        reporters: 'verbose',
         typecheck: {
             enabled: true,
         },
