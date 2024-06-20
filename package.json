@@ -13,8 +13,7 @@
     "precommit": "lint-staged",
     "prepare": "husky",
     "test": "vitest  --typecheck run",
-    "coverage": "vitest run --coverage.enabled=true",
-    "test-coverage": "vitest  --coverage.enabled=true"
+    "coverage": "vitest run --coverage.enabled=true"
   },
   "husky": {
     "hooks": {
@@ -52,6 +51,7 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@types/react-slick": "^0.23.13",
+    "@types/testing-library__jest-dom": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",

@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import { passwordValidation } from '../src/validators/password-validation';
+import { passwordValidation } from '../validators/password-validation';
 
 describe('Function passwordValidation works correctly', () => {
   test('expect correct returned value from passwordValidation', () => {

@@ -1,7 +1,7 @@
 import { describe, it } from 'vitest';
 import { shallow } from 'enzyme';
-import '../test-setup/setup';
-import  Login  from '../src/pages/login/Login';
+import '../../vitest-setup';
+import  Login  from '../pages/login/Login';
 
 describe('Login', () => {
   it('Should render the Login correctly', () => {

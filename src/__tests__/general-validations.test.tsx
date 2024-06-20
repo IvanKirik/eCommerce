@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import { generalValidation } from '../src/validators/general-validation';
+import { generalValidation } from '../validators/general-validation';
 
 describe('Function generalValidation works correctly', () => {
   test('expect correct returned value from generalValidation', () => {

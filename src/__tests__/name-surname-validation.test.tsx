@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
 
-import { nameValidation, surnameValidation } from '../src/validators/name-surname-validation';
+import { nameValidation, surnameValidation } from '../validators/name-surname-validation';
 
 describe('Function nameValidation works correctly', () => {
   test('expect correct returned value from nameValidation', () => {
